@@ -10,7 +10,7 @@ import com.google.android.material.imageview.ShapeableImageView
 
 class AdapterForNews(private var newsList : ArrayList<News>) :
     RecyclerView.Adapter<AdapterForNews.TheViewHolder>() {
-//                        name of the adapter.the nameof the viewholder you will make
+//                      name of the adapter.the nameof the viewholder you will make
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TheViewHolder {
